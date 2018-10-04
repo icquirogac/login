@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<title>Mi Tienda</title>
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Estilos/styles.css">
+	<script src="Scripts/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row" >
+			<div class="col-3 d-flex justify-content-center align-items-center" >
+				<img class="rounded-circle" width="100" src="Imagenes/yo.jpg" alt="Imagen Usuario">
+			</div>
+			<div class="col-6 d-flex justify-content-center align-items-center">
+				<p >MI TIENDA</p>
+			</div > 
+			<div class="col-3 d-flex justify-content-center align-items-center">
+				<p >Carrito <i class="fas fa-shopping-cart"></i> </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<br><br>
+		<div class="row">
+			<div class="col-6 imgIzq">
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<ul class="list-unstyled">
+	  						<li class="media">
+	    						<img class="mr-3" src="Imagenes/milk.png" width="80" alt="Milk">
+	    						<div class="media-body">
+	      							<label for="numLec" >Leche</label>
+	      							<input class="cajas" type="number" id="numLec" name="Leche" value="0" >
+									<input type="hidden" id="valLec" value="2000">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<img class="mr-3" src="Imagenes/bread.png" width="80" alt="Pan">
+	    						<div class="media-body">
+	      							<label for="numPan" >Pan</label>
+	      							<input class="cajas" type="number" id="numPan" name="Pan" value="0">
+									<input type="hidden" id="valPan" value="500">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<img class="mr-3" src="Imagenes/egg.png" width="80" alt="Huevos">
+	    						<div class="media-body">
+	      							<label for="numHue" >Huevos</label>
+	      							<input class="cajas" type="number" id="numHue" name="Huevos" value="0">
+									<input type="hidden" id="valHue" value="300">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<div class="media-body">
+									<label for="numSub1" >Subtotal</label>
+									<input class="cajas" type="number" id="numSub1" name="Subtotal1">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<div class="media-body">
+									<label for="numIva1" >Iva</label>
+									<input class="cajas" type="number" id="numIva1" name="Iva1">
+									<input type="hidden" id="valIva1" value="0.19">
+	    						</div>
+	  						</li>
+						</ul>
+					</div>
+				</div>
+			</div>			
+			<div class="col-6 imgDer">
+				<div class="row">
+					<div class="col-1"></div>
+					<div class="col-5">
+						<ul class="list-unstyled">
+	  						<li class="media">
+	    						<img class="mr-3" src="Imagenes/soap.png" width="80" alt="Milk">
+	    						<div class="media-body">
+									<label for="numJab" >Jabon</label>
+									<input class="cajas" type="number" id="numJab" name="Jabon" value="0">
+									<input type="hidden" id="valJab" value="1500">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<img class="mr-3" src="Imagenes/shampoo.png" width="80" alt="Pan">
+	    						<div class="media-body">
+	      							<label for="numSha" >Shampoo</label>
+	      							<input class="cajas" type="number" id="numSha" name="Shampoo" value="0">
+									<input type="hidden" id="valSha" value="2500">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<img class="mr-3" src="Imagenes/crema.png" width="80" alt="Huevos">
+	    						<div class="media-body">
+	      							<label for="numCre" >Crema</label>
+	      							<input class="cajas" type="number" id="numCre" name="Crema" value="0">
+									<input type="hidden" id="valCre" value="2000">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<div class="media-body">
+									<label for="numSub2" >Subtotal</label>
+									<input class="cajas" type="number" id="numSub2" name="Subtotal2">
+	    						</div>
+	  						</li>
+	  						<li class="media">
+	    						<div class="media-body">
+	    							<label for="numIva2" >Iva</label>
+									<input class="cajas" type="number" id="numIva2" name="Iva2">
+									<input type="hidden" id="valIva2" value="0.1">
+	    						</div>
+	  						</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-1">
+			</div>
+			<div class="col-1">
+				<p  class="text-left">Factura</p>
+			</div>
+			<div class="col-3 d-flex justify-content-center align-items-center">	
+				<input class="btn btn-primary" type="submit" onclick="calcularTotal()" value="Calcular">
+			</div>
+			<div class="col-1"></div>
+			<div class="col-2">
+				<label for="numSub3">Subtotal</label>
+				<br><br>
+				<label for="numIva3">Iva</label>
+				<br><br>
+				<label for="numTot">Total</label>
+			</div>
+			<div class="col-auto">
+				<input type="number" id="numSub3" name="Subtotal3">
+				<br><br>
+				<input type="number" id="numIva3" name="Iva3">
+				<br><br>
+				<input type="number" id="numTot" name="Total">
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<p class="text-center">2018@mitienda.com</p>
+				</div>
+				<div class="col-3 d-flex justify-content-center align-items-center">
+					<a href="">Contactenos</a>
+				</div>
+				
+			</div>
+	</footer>
+</body>
+</html>
