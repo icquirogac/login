@@ -1,0 +1,9 @@
+.cajas {
+	width: 120%;
+}
+#login {
+	visibility: hidden;
+}
+#registro {
+	visibility: hidden;
+}
